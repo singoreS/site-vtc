@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitch</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/vtc.css" />
+    <script
+      src="https://kit.fontawesome.com/1f1f4c0bc7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="text-warning">Kitch</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#accueil">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosservice">Nos Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#devenirchauffeur">Devenir Chauffeur</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nouscontacter">Nous contacter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nous">Nous</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assets/img/pexels-jeshootscom-13861.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>First slide label</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+              tempora ipsum tempore explicabo, sequi autem?
+            </p>
+            <p><a href="btn btn-warning mt3">En savoir +</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/img/pexels-lê-minh-977213.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>photo vtc</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
+              adipisci velit consequatur explicabo nemo ad!
+            </p>
+            <p><a href="btn btn-warning mt3">En savoir +</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/img/vtcbackground.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>Third slide label</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id vel
+              aliquam sed suscipit, hic quod.
+            </p>
+            <p><a href="btn btn-warning mt3">En savoir +</a></p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- about section -->
+    <section id="about" class="about-section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="about-img">
+              <img
+                src="assets/img/vtcservice.jpg"
+                alt="service"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+            <div class="about-text">
+              <h2>Un service de confiance</h2>
+              <p>
+                SÉCURITÉ GARANTIE <br />
+                Notre chauffeur s’assure du respect des consignes de sécurité du
+                code de la route tout au long de votre trajet.
+              </p>
+              <p>
+                DES CHAUFFEURS RESPECTÉS Chaque chauffeur travaille sous son
+                nom, choisit ses prix et peut fidéliser sa clientèle. Chez Kitch
+                : le chauffeur est un entrepreneur libre de ses choix.
+              </p>
+              <p>
+                DÉPLACEZ VOUS SANS POLLUER <br />
+                Kitch compense à 100% les émissions de CO2 des trajets. Nous
+                vous proposons également des véhicules électriques
+              </p>
+              <p>
+                DES PRIX JUSTES ET ATTRACTIFS <br />
+                Grâce à une commission deux fois inférieure aux leaders du
+                secteur, les chauffeurs sur Eurecab peuvent vous proposer des
+                prix attractifs
+              </p>
+              <a href="#" class="btn btn-warning">En Savoir +</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section -->
+    <section id="services" class="services section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <section class="section-header text-center pb-5">
+              <h2>Nos Services</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Obcaecati alias
+              </p>
+            </section>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <a href="icon"><i class="fa-duotone fa-car"></i></a>
+                <h3 class="card-title">Des trajets abordables</h3>
+                <p class="lead">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Libero to tam velit illo autem nostrum impedit praesentium
+                  nemo optio cupiditate labore delectus odio reprehenderit cum
+                  est, id voluptatibus fuga veniam. Neque.
+                </p>
+                <button class="btn btn-warning text-dark">En Savoir +</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <!-- <img src="assets/img/3Dvtc1.png" alt="3Dvtc1" class="img3d1"> -->
+                <i class="fa-duotone fa-circle-heart"></i>
+                <h3 class="card-title">Des chauffeurs satisfaits</h3>
+                <p class="lead">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Libero to tam velit illo autem nostrum impedit praesentium
+                  nemo optio cupiditate labore delectus odio reprehenderit cum
+                  est, id voluptatibus fuga veniam. Neque.
+                </p>
+                <button class="btn btn-warning text-dark">En Savoir +</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <!-- <img src="assets/img/3Dvtc1.png" alt="3Dvtc1" class="img3d1"> -->
+                <i class="fa-duotone fa-earth-africa"></i>
+                <h3 class="card-title">Une mobilité éco-responsable</h3>
+                <p class="lead">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Libero to tam velit illo autem nostrum impedit praesentium
+                  nemo optio cupiditate labore delectus odio reprehenderit cum
+                  est, id voluptatibus fuga veniam. Neque.
+                </p>
+
+                <button class="btn btn-warning text-dark">En Savoir +</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section contact -->
+    <section id="contact" class="concact section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Contactez-Nous</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate esse velit asperiores fugiat nostrum eos sapiente
+                quasi consequatur solut a explicabo, quos doloribus similique
+                iste ea dolor aspernatur impedit atque.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-md-12 p-0 pt-4 p-4 m-auto">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    required
+                    placeholder="Nom et Prénom"
+                  />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    required
+                    placeholder="Votre Adresse Email"
+                  />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <textarea
+                    rows="3"
+                    required
+                    class="form-control"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+              </div>
+              <bouton class="btn btn-warning btn-lg btn-block mt-3"
+                >Envoyer</bouton
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-dark p-2 text-center">
+      <div class="container">
+        <p class="text-white">@Kitch</p>
+      </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
